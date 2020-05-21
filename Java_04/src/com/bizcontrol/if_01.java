@@ -9,7 +9,7 @@ public class if_01 {
 			System.out.println("bVar´Â true");
 		}
 		
-		bVar = ((32 % 2) == 0);
+		bVar = 32 % 2 == 0;
 		if(bVar) {
 			System.out.println("32´Â Â¦¼ö");
 		}
