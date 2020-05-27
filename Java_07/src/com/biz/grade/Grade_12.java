@@ -2,7 +2,7 @@ package com.biz.grade;
 
 import java.util.Random;
 
-public class Garde_12 {
+public class Grade_12 {
 	
 	public static void main(String[] args) {
 		
