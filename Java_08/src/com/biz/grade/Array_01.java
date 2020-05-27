@@ -16,10 +16,10 @@ public class Array_01 {
 		// 20개의 저장공간을 가진 변수를 선언
 		// integer 형 배열 : 20개의 저장공간을 가진 변수
 		// intKor라는 배열을 (20개의 저장 공간)을 갖는 integer 형 배열 생성
-		int[] intKor = new int[10];
-		int[] intEng = new int[10];
-		int[] intMath = new int[10];
-		int[] intMusic = new int[10];
+		int[] intKorScore = new int[20];
+		int[] intEngScore = new int[20];
+		int[] intMathScore = new int[20];
+		int[] intMusicScore = new int[20];
 		
 		//임의 숫자를 생성하기 위한 도구를 선언하기
 		// Random 클래스 이용해서 rnd 라는 변수(도구)를 선언하고
@@ -44,16 +44,24 @@ public class Array_01 {
 	     */
 		
 		for(int i =0; i < 20 ; i++) {
-			intKor[i] = rnd.nextInt(50) + 51;
-			intEng[i] = rnd.nextInt(50) + 51;
-			intMath[i] = rnd.nextInt(50) + 51;
-			intMusic[i] = rnd.nextInt(50) + 51;
+			intKorScore[i] = rnd.nextInt(50) + 51;
+			intEngScore[i] = rnd.nextInt(50) + 51;
+			intMathScore[i] = rnd.nextInt(50) + 51;
+			intMusicScore[i] = rnd.nextInt(50) + 51;
 		}
 		//과목별 총점을 계산하여 보관할 변수를 선언
 		int intKorSum = 0;
 		int intEngSum = 0;
 		int intMathSum = 0;
-		int intMusicSum = 0;	
+		int intMusicSum = 0;
+		
+		for(int i = 0; i < 20; i++) {
+			intKorSum += intKorScore[i];
+			intKorSum += intEngScore[i];
+			intKorSum += intMathScore[i];
+			intKorSum += intMusicScore[i];
+								
+		}
 		
 		//=================================================================
 		// 국어          영어         수학           음악           총점
@@ -64,16 +72,15 @@ public class Array_01 {
 		// intKor[3]    intEng[3]    intMath[3]    intMusic[3]   =  intStSum[3]
 		
 		// 학생들의 과목별 총점을 계산하여 저장할 배열을 또 20개 선언
-		
 		int[] intStSum = new int[20];
 		for(int i = 0 ; i <20 ; i++) {
 			
 			
 			// 총점배열에 학생들의 성적총점을 계산하여 저장
-			intStSum[i] = intKor[i];
-			intStSum[i] += intEng[i];
-			intStSum[i] += intMath[i];
-			intStSum[i] += intMusic[i];
+			intStSum[i] = intKorScore[i];
+			intStSum[i] += intEngScore[i];
+			intStSum[i] += intMathScore[i];
+			intStSum[i] += intMusicScore[i];
 		}
 		
 		System.out.println("============================================");
@@ -82,24 +89,31 @@ public class Array_01 {
 		
 		for(int i = 0 ; i < 20 ; i++) {
 			System.out.printf("%d\t\t%d\t\t%d\t\t%d\t\t%d\n",
-					intKor[i],
-					intEng[i],
-					intMath[i],
-					intMusic[i],
+					intKorScore[i],
+					intEngScore[i],
+					intMathScore[i],
+					intMusicScore[i],
 					intStSum[i], intStSum[i] / 4);
 		}
 		//========================================
 		// 국어  영어   수학  음악  총점
 		//----------------------------------------
-		//
-		System.out.println("--------------------------------------------");
-		System.out.printf("%d\t\t%d\t\t%d\t\t%d\n",
-				intKorSum,
-				intEngSum,
-				intMathSum,
-				intMusicSum);
-		System.out.println(%d%d%d%d);
+		// intKor[0] + intEng[0] + intMath[0] + intMusic[0] = intStsum[0]
+		System.out.println("과목별 점수 총점");
+		System.out.println("국어 :");
+		System.out.println("영어 :");
+		System.out.println("수학 :");
+		System.out.println("음악 :");
+		
+		System.out.println("=============================");
+		System.out.println("과목별 점수의 평균");
+		System.out.println("국어"+ intKorSum / 20);
+		System.out.println("영어"+ intEngSum / 20);
+		System.out.println("수학"+ intMathSum / 20);
+		System.out.println("음악"+ intMusicSum / 20);
 	}
+	 
+	
 	
 
 }
