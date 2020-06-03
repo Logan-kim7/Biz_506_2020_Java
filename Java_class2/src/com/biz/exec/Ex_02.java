@@ -55,9 +55,6 @@ public class Ex_02 {
 			AddrServiceV1 addressList = new AddrServiceV1();
 			//배열을 매개변수를 통해 method에게 전달할때는 이름만 붙여주면 된다.
 			addressList.addList(address);
-			
-		
-		
 	}
 	
 
