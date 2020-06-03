@@ -70,7 +70,7 @@ public class ScoreEx_01 {
 		 * 역할을 수행하도록 코드를 변경했다.  
 		 */
 		ScoreServiceV2 sService2 = new ScoreServiceV2();
-		sService2.scoreSum(scores);
+		sService2.scoreSum(score);
 		sService2.scoreAvg();
 		
 	}

@@ -1,9 +1,10 @@
 package com.biz.score.exec;
 
-import java.awt.RadialGradientPaint;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import com.biz.score.vo.ScoreVO;
 
 public class ScoreEx_03 {
 	
