@@ -82,7 +82,7 @@ public class BookServiceImplV1  implements BookService{
 			intPrc= Integer.valueOf(intPrc);
 			
 		}catch (Exception e) {
-			System.out.println("출판일은 숫자만가능!!!");
+			System.out.println("가격은 숫자만가능!!!");
 			System.out.println(bookVO.getTitle() + "출판 정보 부터 다시입력하세요");
 			
 			return true;
