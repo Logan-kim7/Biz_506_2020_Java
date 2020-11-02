@@ -1,17 +1,20 @@
 package com.biz.list.model;
 
 public class ScoreVO {
-	
+
 	private String num;
-	private int Kor;
-	private int Eng;
-	private int Math;
+	private int kor;
+	private int eng;
+	private int math;
 	
-	public int getStsum() {
-		return stsum;
+	private int stSum;
+	private int stAvg;
+	
+	public int getStSum() {
+		return stSum;
 	}
-	public void setStsum(int stsum) {
-		this.stsum = stsum;
+	public void setStSum(int stSum) {
+		this.stSum = stSum;
 	}
 	public int getStAvg() {
 		return stAvg;
@@ -19,11 +22,6 @@ public class ScoreVO {
 	public void setStAvg(int stAvg) {
 		this.stAvg = stAvg;
 	}
-	private int stsum;
-	private int  stAvg;
-	
-	
-	
 	public String getNum() {
 		return num;
 	}
@@ -31,23 +29,26 @@ public class ScoreVO {
 		this.num = num;
 	}
 	public int getKor() {
-		return Kor;
+		return kor;
 	}
 	public void setKor(int kor) {
-		Kor = kor;
+		this.kor = kor;
 	}
 	public int getEng() {
-		return Eng;
+		return eng;
 	}
 	public void setEng(int eng) {
-		Eng = eng;
+		this.eng = eng;
 	}
 	public int getMath() {
-		return Math;
+		return math;
 	}
 	public void setMath(int math) {
-		Math = math;
+		this.math = math;
 	}
 	
-
+	
+	
+	
+	
 }

@@ -3,17 +3,16 @@ package com.biz.hello;
 public class Var_03 {
 	public static void main(String[] args) {
 		
-		int num1 = 0; //º¯¼ö ¿¹¾à, clear
-		int num2 = 30; //º¯¼ö ¿¹¾à, °ª(30)À» ÇÒ´ç
-		int num3; // º¯¼ö ¿¹¾à¸¸, ¼±¾ğ¸¸ ÇÑ »óÅÂ
+		int num1 = 0; // ë³€ìˆ˜ ì˜ˆì•½, clear
+		int num2 = 30; // ë³€ìˆ˜ ì˜ˆì•½, ê°’(30)ì„ í• ë‹¹ 
+		int num3; // ë³€ìˆ˜ ì˜ˆì•½ë§Œ, ì„ ì–¸ë§Œ í•œ ìƒíƒœ
 		
 		System.out.println(num1);
 		System.out.println(num2);
 		
-		// º¯¼ö¿¡ °ªÀÌ ÇÒ´çµÇ°Å³ª clearµÇÁö ¾ÊÀº »óÅÂ¿¡¼­´Â
-		// °ªÀ» ÀĞÀ»¼ö ¾ø´Ù.
+		// ë³€ìˆ˜ì— ê°’ì´ í• ë‹¹ë˜ê±°ë‚˜ clearë˜ì§€ ì•Šì€ ìƒíƒœì—ì„œëŠ”
+		// ê°’ì„ ì½ì„ìˆ˜ ì—†ë‹¤.
 		// System.out.println(num3);
 		
 	}
-
 }

@@ -1,29 +1,27 @@
 
 public class Hello_01 {
 	
-	// ½ÃÀÛÁ¡, Luncher
-    public static void main(String[] args) {
-    	// Å«µû¿ÈÇ¥·Î ¹­ÀÎ ³»¿ëÀº ¹®ÀÚ¿­ ¸®ÅÍ·² ÀÌ¶ó°í ÇÏ¸ç 
-    	// ¾Æ·¡ ÄÚµå´Â ¹®ÀÚ¿­ ¸®ÅÍ·²À» Console¿¡ º¸¿©¶ó ¶ó´Â ÄÚµå
-    	System.out.println("Republic of Korea");
-    	System.out.println("30 + 40");
-    	System.out.println("30 * 40");
-    	
-    	
-    	// ¹®ÀÚ¿­ ¸®ÅÍ·² Republic Of Korea¸¦ µ¡¼À¿¬»êÇÏ¿©
-    	// Console¿¡ º¸¿©´Ş¶ó
-    	// ¹®ÀÚ¿­ ¸®ÅÍ·² Republic Of Korea¸¦ ¿¬°áÇÏ¿©
-    	// Console¿¡ º¸¿©´Ş¶ó
-    	System.out.println("Republic"+ "Of" + "Korea");
-    	
-    	// ¹®ÀÚ¿­ ¸®ÅÍ·²¿¡ ºóÄ­(space)°¡ Æ÷ÇÔµÇ¸é
-    	// ´«¿¡ º¸ÀÌÁö´Â ¾ÊÁö¸¸ ºóÄ­µµ ÇÏ³ªÀÇ ¹®ÀÚ¿­ ¸®ÅÍ·²ÀÌ µÈ´Ù.
-    	System.out.println("Republic "+ "Of " + "Korea");
-   
+	// ì‹œì‘ì , Launcher
+	public static void main(String[] args) {
+		
+		// í°ë”°ì˜´í‘œë¡œ ë¬¶ì¸ ë‚´ìš©ì€ ë¬¸ìì—´ ë¦¬í„°ëŸ´ ì´ë¼ê³  í•˜ë©°
+		// ì•„ë˜ ì½”ë“œëŠ” ë¬¸ìì—´ ë¦¬í„°ëŸ´ì„ Consoleì— ë³´ì—¬ë¼ ë¼ëŠ” ì½”ë“œ
+		System.out.println("Republic of Korea");
+		System.out.println("30 + 40");
+		System.out.println("30 * 40");
+		
+		// ë¬¸ìì—´ ë¦¬í„°ëŸ´ Republic Of Koreaë¥¼ ë§ì…ˆì—°ì‚°í•˜ì—¬
+		// Consoleì— ë³´ì—¬ë‹¬ë¼
+		// ë¬¸ìì—´ ë¦¬í„°ëŸ´ Republic Of Koreaë¥¼ ì—°ê²°í•˜ì—¬
+		// Consoleì— ë³´ì—¬ë‹¬ë¼
+		System.out.println("Republic" + "Of" + "Korea");
+		
+		// ë¬¸ìì—´ ë¦¬í„°ëŸ´ì— ë¹ˆì¹¸(space)ê°€ í¬í•¨ë˜ë©´
+		// ëˆˆì— ë³´ì´ì§€ëŠ” ì•Šì§€ë§Œ ë¹ˆì¹¸ë„ í•˜ë‚˜ì˜ ë¬¸ìì—´ ë¦¬í„°ëŸ´ì´ ëœë‹¤.
+		System.out.println("Republic " + "Of " + "Korea");
 		
 		
-		
-
 	}
-
 }
+
+

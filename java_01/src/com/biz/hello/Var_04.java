@@ -1,21 +1,20 @@
 package com.biz.hello;
 
 public class Var_04 {
-	
-	public static void main(String[] args) {
-		// º¯¼ö¸¦ ¼±¾ğ¸¸ ÇÑ »óÅÂ
-        int num1;
-        int num2;
-        
-        
-        // ¼±¾ğµÈ º¯¼ö¿¡ °ª ÇÒ´ç
-        num1 = 30;
-        //¼±¾ğµÈ º¯¼ö clear
-        num2 = 0;
-        
-        System.out.println(num1);
-        System.out.println(num2);
-        
-	}
 
+	public static void main(String[] args) {
+		// ë³€ìˆ˜ë¥¼ ì„ ì–¸ë§Œ í•œ ìƒíƒœ
+		int num1;
+		int num2;
+				
+		// ì„ ì–¸ëœ ë³€ìˆ˜ì— ê°’ í• ë‹¹
+		num1 = 30;
+		// ì„ ì–¸ëœ ë³€ìˆ˜ clear
+		num2 = 0;
+		
+		System.out.println(num1);
+		System.out.println(num2);
+	
+	}
+	
 }

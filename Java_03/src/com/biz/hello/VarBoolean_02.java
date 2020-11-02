@@ -1,54 +1,50 @@
 package com.biz.hello;
 
 public class VarBoolean_02 {
-	
+
 	public static void main(String[] args) {
-		/*
-		 * ÄÚµå ÀÛ¼ºÇÒ¶§ µé¿©¾²±â »ıÈ°È­
-		 */
-		int num1 = 30;
-		int num2 = 7;
-		
+		int num1 = 31;
+		int num2 = 45;
+
 		int numP = num1 + num2;
 		int numM = num1 - num2;
 		int numT = num1 * num2;
 		int numD = num2 / num1;
 		
 		System.out.println(numP);
-		System.out.println(numM);  
+		System.out.println(numM);
 		System.out.println(numT);
 		System.out.println(numD);
 		
-		// 4Ä¢¿¬»êÀ» ¼öÇàÇÑ °á°ú °¢°¢ numP, numM, numT, numD¿¡
-		// ´ã°ÜÀÖ´Ù
+		// 4ì¹™ì—°ì‚°ì„ ìˆ˜í–‰í•œ ê²°ê³¼ ê°ê° numP, numM, numT, numDì—
+		// ë‹´ê²¨ ìˆë‹¤
 		
-		//4°³ÀÇ º¯¼ö¿¡ º¸°üµÇ¾î ÀÖ´Â °ªÀÌ Â¦¼öÀÎÁö ÆÇ´Ü
+		// 4ê°œì˜ ë³€ìˆ˜ì— ë³´ê´€ë˜ì–´ ìˆëŠ” ê°’ì´ ì§ìˆ˜ì¸ì§€ íŒë‹¨
 		boolean bVarP = (numP % 2) == 0;
 		boolean bVarM = (numM % 2) == 0;
 		boolean bVarT = (numT % 2) == 0;
 		boolean bVarD = (numD % 2) == 0;
 		
-		System.out.println(bVarP);
-		System.out.println(bVarM);
-		System.out.println(bVarT);
-		System.out.println(bVarD);
+		System.out.println(bVarP); // true
+		System.out.println(bVarM); // true
+		System.out.println(bVarT); // false
+		System.out.println(bVarD); // false
 		
-		if(bVarP == true) {System.out.println("µ¡¼À°á°ú´Â Â¦¼ö");
-		
+		if(bVarP == true) {
+			System.out.println("ë§ì…ˆê²°ê³¼ëŠ” ì§ìˆ˜");
 		}
-		if(bVarM == true) {System.out.println("–E¼À°á°ú´Â Â¦¼ö");
-		
+		if(bVarM == true) {
+			System.out.println("ëº„ì…ˆê²°ê³¼ëŠ” ì§ìˆ˜");
 		}
-		
-		if(bVarT == true) {System.out.println("°ö¼À°á°ú´Â Â¦¼ö");
-		
+		if(bVarT == true) {
+			System.out.println("ê³±ì…ˆê²°ê³¼ëŠ” ì§ìˆ˜");
 		}
-
-		if(bVarD == true) {System.out.println("³ª´°¼À°á°ú´Â Â¦¼ö");
-		
+		if(bVarD == true) {
+			System.out.println("ë‚˜ëˆ—ì…ˆê²°ê³¼ëŠ” ì§ìˆ˜");
 		}
 
-				
+		
+		
 	}
-
+	
 }

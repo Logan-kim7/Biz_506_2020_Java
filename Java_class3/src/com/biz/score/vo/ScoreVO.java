@@ -2,55 +2,58 @@ package com.biz.score.vo;
 
 public class ScoreVO {
 	
-	private String strStnum;
-	private int  intKor;
-	private int  intEng;
-	private int  intMaht;
-	private int  intMusic;
-	private int  intSum;
-	private int  intAvg;
+	private String num;
+	private int kor;
+	private int eng;
+	private int math;
+	private int music;
 	
-	public String getStrStnum() {
-		return strStnum;
+	private int stSum;
+	private int stAvg;
+	
+	
+	public int getStSum() {
+		return stSum;
 	}
-	public void setStrStnum(String strStnum) {
-		this.strStnum = strStnum;
+	public void setStSum(int stSum) {
+		this.stSum = stSum;
 	}
-	public int getIntKor() {
-		return intKor;
+	public int getStAvg() {
+		return stAvg;
 	}
-	public void setIntKor(int intKor) {
-		this.intKor = intKor;
+	public void setStAvg(int stAvg) {
+		this.stAvg = stAvg;
 	}
-	public int getIntEng() {
-		return intEng;
+	public String getNum() {
+		return num;
 	}
-	public void setIntEng(int intEng) {
-		this.intEng = intEng;
+	public void setNum(String num) {
+		this.num = num;
 	}
-	public int getIntMaht() {
-		return intMaht;
+	public int getKor() {
+		return kor;
 	}
-	public void setIntMaht(int intMaht) {
-		this.intMaht = intMaht;
+	public void setKor(int kor) {
+		this.kor = kor;
 	}
-	public int getIntMusic() {
-		return intMusic;
+	public int getEng() {
+		return eng;
 	}
-	public void setIntMusic(int intMusic) {
-		this.intMusic = intMusic;
+	public void setEng(int eng) {
+		this.eng = eng;
 	}
-	public int getIntSum() {
-		return intSum;
+	public int getMath() {
+		return math;
 	}
-	public void setIntSum(int intSum) {
-		this.intSum = intSum;
+	public void setMath(int math) {
+		this.math = math;
 	}
-	public int getIntAvg() {
-		return intAvg;
+	public int getMusic() {
+		return music;
 	}
-	public void setIntAvg(int intAvg) {
-		this.intAvg = intAvg;
+	public void setMusic(int music) {
+		this.music = music;
 	}
+	
 
 }

@@ -1,14 +1,14 @@
 
 public class Hello_03 {
 
-	// args : arguments¶ó°í ÀĞ´Â´Ù.
-	// ¸Å°³º¯¼ö, parameter
-	
+	// args : argumentsë¼ê³  ì½ëŠ”ë‹¤.
+	// ë§¤ê°œë³€ìˆ˜, parameter
 	public static void main(String[] args) {
-		System.out.println("=================");
-		System.out.println("16´Ü ±¸±¸´Ü");
-		// 16 x 1 ÀÌ¶ó°í    consol¿¡ º¸¿©¶ó
-		System.out.println("-----------------");
+		
+		System.out.println("======================");
+		System.out.println("16ë‹¨ êµ¬êµ¬ë‹¨");
+		System.out.println("----------------------");
+		// 16 x 1 = 16 ë¼ê³  Consoleì— ë³´ì—¬ë¼
 		System.out.println(" 16 x 1 = " + 16 * 1);
 		System.out.println(" 16 x 2 = " + 16 * 2);
 		System.out.println(" 16 x 3 = " + 16 * 3);
@@ -18,7 +18,8 @@ public class Hello_03 {
 		System.out.println(" 16 x 7 = " + 16 * 7);
 		System.out.println(" 16 x 8 = " + 16 * 8);
 		System.out.println(" 16 x 9 = " + 16 * 9);
-		System.out.println("=================");
+		System.out.println("======================");
+		
 	}
-
+	
 }

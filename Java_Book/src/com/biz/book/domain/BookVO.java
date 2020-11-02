@@ -1,11 +1,10 @@
 package com.biz.book.domain;
 
 /*
- * 도서 정보를 저장할 VO클래스
+ * 도서정보를 저장할 VO클래스
  * 도서명, 출판사, 저자, 출판연도, 가격 필드 포함
  * 출판연도는 나중에 4칙연산을 수행할 것을 예상하여 int 형으로 선언
  */
-
 public class BookVO {
 
 	private String title;
@@ -44,7 +43,4 @@ public class BookVO {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
-	
-	
 }

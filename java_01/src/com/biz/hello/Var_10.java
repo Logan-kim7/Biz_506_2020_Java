@@ -6,58 +6,59 @@ public class Var_10 {
 		int num1 = 7;
 		int num2 = 1;
 		
-		System.out.println(num1
-				+ " x "
+		System.out.println(num1 
+				+ " x " 
 				+ num2 + " = " + num1 * num2);
 		
-		System.out.println(num1
-				+ " x "
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
 				+ num2 + " = " + num1 * num2);
-	            num2 = num2 + 1;
-	            		
-		System.out.println(num1
-				+ " x "
-				+num2 + " = " + num1 * num2);
-		        num2 = num2 + 1;
-		        
-		System.out.println(num1
-				+ " x "
-				+num2 + " = " + num1 * num2);
-		        num2 = num2 + 1;
-		        
-		System.out.println(num1
-				+ " x "
-				+num2 + " = " + num1 * num2);
-		        num2 = num2 + 1;
-		        
-		System.out.println(num1
-						+ " x "
-						+num2 + " = " + num1 * num2);
-				        num2 = num2 + 1;
-				        
-		System.out.println(num1
-				+ " x "
-			    +num2 + " = " + num1 * num2);
-			    num2 = num2 + 1;
-			    
-		System.out.println(num1
-			    + " x "
-				+num2 + " = " + num1 * num2);
-				num2 = num2 + 1;
-						        
-		System.out.println(num1
-				+ " x "
-				+num2 + " = " + num1 * num2);
-				num2 = num2 + 1;
-								        
-		System.out.println(num1
-					+ " x "
-					+num2 + " = " + num1 * num2);
-	                num2 = num2 + 1;
-				        
-				        
-		        
-		        
+		
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		num2 = num2 + 1;
+		System.out.println(num1 
+				+ " x " 
+				+ num2 + " = " + num1 * num2);
+
+		
+	
+	
+	
 	}
 
 }

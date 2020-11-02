@@ -4,28 +4,45 @@ import com.biz.model.ScoreVO;
 
 public class ScoreServiceV1 {
 
-	public void scoreList(ScoreVO[] score) {
-
-		LineService lineService = new LineService();
+	public void scoreList(ScoreVO[] scoreList) {
+		
+		LineService line = new LineService();
 		int lineLength = 50;
-		String d_line = lineService.do_line(50);
-		String s_line = lineService.single_line(50);
-
-		System.out.println(d_line);
-		System.out.printf("이름\t 국어\t 영어\t 수학\t 총점\t 평균\n");
-		System.out.println(s_line);
-		// for() {  } 내에서 선언된 sum, avg 변수는
-		// for() {  } 명령문이 종료되면 이후에 참조 할수 없다.
-		for (int i = 0; i < score.length; i++) {
-			int sum = 0;
-			sum = score[i].getKor();
-			sum += score[i].getEng();
-			sum += score[i].getMath();
-
-			System.out.printf("%s\t %d\t %d\t %d\t %d\t %d\n", score[i].getName(), score[i].getKor(), score[i].getEng(),
-					score[i].getMath(), sum, sum / 3);
-
+		
+		System.out.println(line.do_line( lineLength ));
+		System.out.println("이름\t국어\t영어\t수학\t총점\t평균");
+		System.out.println(line.single(  lineLength ));
+		int[] stSum = new int[scoreList.length];
+		for(int i = 0 ; i < stSum.length ; i++) {
+			stSum[i] = scoreList[i].getKor();
+			stSum[i] += scoreList[i].getEng();
+			stSum[i] += scoreList[i].getMath();
 		}
+		
+		for(int i = 0 ; i < scoreList.length ; i++) {
+		
+			// for() {  } 내에서 선언된 sum, avg 변수는
+			// for() {  } 명령문이 종료되면 이후에 참조할수 없다.
+			int sum = scoreList[i].getKor();
+			sum += scoreList[i].getEng();
+			sum += scoreList[i].getMath();
+			int avg = sum / 3;
 
+			System.out.printf("%s\t%d\t%d\t%d\t%d\t%d\n",
+					scoreList[i].getName(),
+					scoreList[i].getKor(),
+					scoreList[i].getEng(),
+					scoreList[i].getMath(),
+					sum,avg
+			);
+			System.out.println(line.do_line(  lineLength  ));
+		}
+		
+		
+		
+		
+		
 	}
+	
+	
 }

@@ -1,25 +1,20 @@
 package com.biz.hello;
 
 public class VarBoolean_01 {
+
+	/*
+	 * 코드 작성할때 들여쓰기 생활화
+	 */
 	public static void main(String[] args) {
-        
-		int num2 = 30;
-		boolean bVar1 = (num2 % 2) == 0;
-		if(bVar1 == true) {}
-			//System.out.println(num1 + "�� ¦���Դϴ�.");
-		
-		
-		
-		
-		
-		
-		//int num2 =30;
-        boolean bVar =true;
-        //if(num2 == bVar) {}
 
+		int num1 = 30;
+		boolean bVar = (num1 % 2) == 0;
+		if(bVar) {
+			System.out.println(num1 + "는 짝수입니다");	
+		}
+		
 		
 
-				
 	}
 
 }

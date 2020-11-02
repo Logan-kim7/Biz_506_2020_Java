@@ -1,24 +1,24 @@
 package com.biz.hello;
 
 public class Var_06 {
+	
 	public static void main(String[] args) {
 		int num1 = 0;
 		int num2 = 0;
 		
-		 num1 = 40;
-		 num2 = 50;
-		 
-		 /*
-		  * º¯¼ö¼±¾ğ¹® ¶Ç´Â ¼±¾ğµÈ º¯¼ö = °ª ¶Ç´Â ¿¬»ê½Ä 
-		  */
-		 
-		 int sum = num1 + num2;
-		 sum = 50 - 10;
-		 sum = 50 / 2;
-		 sum = 50 * 10;
-		 
-		 System.out.println(sum);
+		num1 = 40;
+		num2 = 50;
 		
+		/*
+		 * ë³€ìˆ˜ì„ ì–¸ë¬¸ ë˜ëŠ” ì„ ì–¸ëœ ë³€ìˆ˜ = ê°’ ë˜ëŠ” ì—°ì‚°ì‹
+		 */
+		int sum = num1 + num2;
+		sum = 50 - 10;
+		sum = 50 / 2;
+		sum = 50 * 10;
+		
+		System.out.println(sum);
+	
 	}
 
 }

@@ -3,40 +3,41 @@ package com.biz.hello;
 public class Var_14 {
 	
 	public static void main(String[] args) {
+		
 		/*
-		 * ½Ç¼öÇüº¯¼ö
-		 * ¼Ò¼öÁ¡ÀÌÇÏ 7ÀÚ¸®±îÁöÇ¥Çö
-		 * 
+		 * ì‹¤ìˆ˜í˜•ë³€ìˆ˜
+		 * ì†Œìˆ˜ì ì´í•˜ 7ìë¦¬ê¹Œì§€ í‘œí˜„
 		 */
 		float num1 = 10.0f;
 		float num2 = 3.0f;
 		System.out.println(num1 / num2);
-
-		/*
-		 * ½Ç¼öÇü º¯¼ö
-		 * ¼Ò¼öÁ¡ÀÌÇÏ 17ÀÚ¸®±îÁö Ç¥Çö
-		 */
-	double num3 = 10.0;
-	double num4 = 3.0;
-	System.out.println(num3 / num4);
 		
-	/*
-	 * integer(Á¤¼ö)Çü º¯¼ö
-	 * 2ÀÇ 31½Â +- ¹üÀ§ÀÇ Á¤¼ö Ãë±Ş
-	 * (32bit, 4byte)
-	 */
-	int num5 = 1000_000_000;
-	int num6 = 300;
-	System.err.println(num5 * num6);
+		/*
+		 * ì‹¤ìˆ˜í˜• ë³€ìˆ˜
+		 * ì†Œìˆ˜ì ì´í•˜ 17ìë¦¬ê¹Œì§€ í‘œí˜„
+		 */
+		double num3 = 10.0;
+		double num4 = 3.0;
+		System.out.println(num3 / num4);
+		
+		/*
+		 * integer(ì •ìˆ˜)í˜• ë³€ìˆ˜
+		 * 2ì˜ 31ìŠ¹ +- ë²”ìœ„ì˜ ì •ìˆ˜ ì·¨ê¸‰
+		 * (32bit, 4byte)
+		 */
+		int num5 = 1000_000_000;
+		int num6 = 300;
+		System.out.println(num5 * num6);
+		
+		/*
+		 * ì •ìˆ˜í˜•ë³€ìˆ˜
+		 * 64bití¬ê¸°ì˜ ê°’ ì·¨ê¸‰
+		 * 2ì˜ 63ìŠ¹ +- ë²”ìœ„ì˜ ê°’ ì·¨ê¸‰
+		 */
+		long num7 = 1000_000_000_000_000L;
+		long num8 = 3000L;
+		System.out.println(num7 * num8);
 	
-	/*
-	 * Á¤¼öÇüº¯¼ö
-	 * 64bitÅ©±âÀÇ °ª Ãë±Ş
-	 * 2ÀÇ 63½Â +- ¹üÀ§ÀÇ °ª Ãë±Ş
-	 */
-	long num7 = 1000_000_000L;
-	long num8 = 3000L;
-	System.out.println(num7 * num8);
 	}
 
 }

@@ -1,6 +1,6 @@
 package com.biz.grade;
 
-import com.biz.Score.Student;
+import com.biz.score.Student;
 
 public class Grade_06 {
 	
@@ -15,7 +15,7 @@ public class Grade_06 {
 		String strTel = "010-333-3333";
 		System.out.println(intAge);
 		System.out.println(strTel);
-		
+				
 		Student st = new Student();
 		st.make();
 		strN = st.getName();
@@ -25,9 +25,6 @@ public class Grade_06 {
 		strTel = st.getTel();
 		System.out.println(intAge);
 		System.out.println(strTel);
-		
-				
-		
 		
 	}
 

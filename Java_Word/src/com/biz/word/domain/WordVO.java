@@ -1,7 +1,7 @@
 package com.biz.word.domain;
 
 public class WordVO {
-	
+
 	private String eng;
 	private String kor;
 	
@@ -23,7 +23,4 @@ public class WordVO {
 	
 	
 	
-	
-	
-
 }
